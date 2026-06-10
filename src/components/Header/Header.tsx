@@ -30,7 +30,7 @@ export default function Header() {
           {/* Información personal */}
           <div className="profile-info">
             <h1 className="name">Manuel Muñoz Gómez</h1>
-            <p className="title">Desarrollador de software</p>
+            <h3 className="title">Desarrollador de software</h3>
 
             {/* Redes sociales */}
             <div className="social-links">

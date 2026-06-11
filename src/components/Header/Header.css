@@ -242,7 +242,7 @@
 }
 
 /* Tablets (640px - 768px) */
-@media (max-width: 799px) {
+@media (max-width: 803px) {
   .header {
     min-height: auto;
     padding: 2.5rem 1rem;

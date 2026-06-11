@@ -1,6 +1,7 @@
 import Header from './components/Header/Header'
 import './App.css'
 import AboutMe from './components/AboutMe/AboutMe'
+import Tecnologies from './components/Tecnologies/Tecnologies'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <main>
         <hr />
       <AboutMe/>
+      <Tecnologies/>
       </main>
     </>
   )

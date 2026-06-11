@@ -14,8 +14,8 @@ interface SocialLink {
 export default function Header() {
   const socialLinks: SocialLink[] = [
     { icon: emailIcon, url: "mailto:mamugo1432@gmail.com", label: "Email" },
-    { icon: githubIcon, url: "#", label: "GitHub" },
-    { icon: linkedinIcon, url: "#", label: "LinkedIn" },
+    { icon: githubIcon, url: "https://github.com/mamugo1432", label: "GitHub" },
+    { icon: linkedinIcon, url: "https://www.linkedin.com/in/manuel-muñoz-gómez-4050ba2a7/", label: "LinkedIn" },
   ];
 
   return (
@@ -40,6 +40,8 @@ export default function Header() {
                   href={link.url}
                   className={`social-link ${link.isPrimary ? "primary" : ""}`}
                   title={link.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <span className="social-icon"><img src={link.icon} alt={"Icono de " + link.label} />{link.label == "Email" && <p>    mamugo1432@gmail.com</p>}</span>
                   {link.isPrimary && <span className="social-text">{link.label}</span>}

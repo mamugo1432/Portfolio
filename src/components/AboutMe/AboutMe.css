@@ -1,8 +1,7 @@
 
 
-.container-section p {
+.container-section #aboutMe-text {
     color: black;
     text-align: left;
     padding: 1rem 2rem;
-    animation: slideInUp 0.8s ease-out 0.1s backwards;
 }

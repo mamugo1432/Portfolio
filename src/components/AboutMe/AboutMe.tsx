@@ -5,7 +5,7 @@ export default function AboutMe(){
         <>
         <div className='container-section'>
         <h2>Sobre Mí</h2>
-        <p>¡Hola! Me considero una persona curiosa, constante y con muchas ganas de aprender. Disfruto enfrentándome a nuevos retos, trabajando en equipo y aprovechando cada experiencia como una oportunidad para seguir creciendo.</p>
+        <p id="aboutMe-text">¡Hola! Me considero una persona curiosa, constante y con muchas ganas de aprender. Disfruto enfrentándome a nuevos retos, trabajando en equipo y aprovechando cada experiencia como una oportunidad para seguir creciendo.</p>
         </div>
         </>
     );

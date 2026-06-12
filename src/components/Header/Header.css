@@ -100,9 +100,7 @@
   flex-direction: row;
   gap: 1rem;
   flex-wrap: wrap;
-  align-items: center;
   animation: slideInUp 0.8s ease-out 0.2s backwards;
-  justify-content: center;
 }
 
 .social-link {

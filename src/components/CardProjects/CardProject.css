@@ -8,6 +8,7 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
+  margin: 16px 32px;
 }
 
 .project-card:hover {
@@ -81,7 +82,7 @@
   opacity: 0.9;
 }
 
-/* Media queries para tamaños responsivos */
+/* Media queries para tamaños responsivos 
 @media (max-width: 768px) {
   .project-card {
     width: clamp(250px, 100%, 18rem);
@@ -150,3 +151,4 @@
     font-size: 0.85rem;
   }
 }
+  */

@@ -3,7 +3,8 @@ import fotoPerfil from '../../assets/Fotografía_Manuel_Muñoz_Gómez.jpg';
 import emailIcon from '../../assets/email-9-svgrepo-com.svg';
 import githubIcon from '../../assets/github-142-svgrepo-com.svg';
 import linkedinIcon from '../../assets/linkedin-161-svgrepo-com.svg';
-
+import cvIcon from '../../assets/curriculum-vitae-svgrepo-com.svg';
+import cv from '../../assets/Currículum Manuel Muñoz Gómez.pdf'
 interface SocialLink {
   icon: string;
   url: string;
@@ -16,6 +17,7 @@ export default function Header() {
     { icon: emailIcon, url: "mailto:mamugo1432@gmail.com", label: "Email" },
     { icon: githubIcon, url: "https://github.com/mamugo1432", label: "GitHub" },
     { icon: linkedinIcon, url: "https://www.linkedin.com/in/manuel-muñoz-gómez-4050ba2a7/", label: "LinkedIn" },
+    {icon: cvIcon, url: cv, label:"Currículum Vitae"}
   ];
 
   return (
@@ -42,6 +44,7 @@ export default function Header() {
                   title={link.label}
                   target="_blank"
                   rel="noopener noreferrer"
+                  download={link.label.includes("Vitae") ? true : null}
                 >
                   <span className="social-icon"><img src={link.icon} alt={"Icono de " + link.label} />{link.label == "Email" && <p>    mamugo1432@gmail.com</p>}</span>
                   {link.isPrimary && <span className="social-text">{link.label}</span>}

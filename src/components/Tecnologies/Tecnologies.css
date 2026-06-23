@@ -11,7 +11,7 @@
   align-items: center;
   padding: 0.5rem 1rem;
   border-radius: 999px;
-  background-color: #f3f4f6;
+  background-color: #ffffff;
   color: #1f2937;
   font-size: 0.9rem;
   font-weight: 500;
@@ -19,9 +19,4 @@
   transition: all 0.2s ease;
   border: 2px solid var(--border-color);
   cursor: default;
-}
-
-.skill-pill:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }

@@ -55,7 +55,6 @@
   border-radius: 50%;
   border: 3px solid var(--primary-blue);
   object-fit: cover;
-  transition: all 0.3s ease;
 }
 
 
@@ -240,7 +239,7 @@
 }
 
 /* Tablets (640px - 768px) */
-@media (max-width: 803px) {
+@media (max-width: 1024px) {
   .header {
     min-height: auto;
     padding: 2.5rem 1rem;

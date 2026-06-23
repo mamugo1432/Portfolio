@@ -1,0 +1,22 @@
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: stretch;
+ 
+  width: 100%;
+  margin: 2rem 2rem 2rem 0rem;
+}
+
+@media (max-width: 768px) {
+  .projects-grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-grid {
+    gap: 1rem;
+  }
+}

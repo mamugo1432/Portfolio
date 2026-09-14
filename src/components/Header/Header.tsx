@@ -44,7 +44,7 @@ export default function Header() {
                   title={link.label}
                   target="_blank"
                   rel="noopener noreferrer"
-                  download={link.label.includes("Vitae") ? true : null}
+                  download={link.label.includes("Vitae") ? "Currículum Manuel Muñoz Gómez.pdf" : null}
                 >
                   <span className="social-icon"><img src={link.icon} alt={"Icono de " + link.label} />{link.label == "Email" && <p>    mamugo1432@gmail.com</p>}</span>
                   {link.isPrimary && <span className="social-text">{link.label}</span>}

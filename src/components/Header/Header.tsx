@@ -4,7 +4,7 @@ import emailIcon from '../../assets/email-9-svgrepo-com.svg';
 import githubIcon from '../../assets/github-142-svgrepo-com.svg';
 import linkedinIcon from '../../assets/linkedin-161-svgrepo-com.svg';
 import cvIcon from '../../assets/curriculum-vitae-svgrepo-com.svg';
-import cv from '../../assets/Currículum Manuel Muñoz Gómez.pdf'
+import cv from '../../assets/Currículum Manuel Muñoz Gómez.pdf'
 interface SocialLink {
   icon: string;
   url: string;

@@ -1,22 +1,28 @@
 .projects-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 2rem;
-  justify-content: center;
   align-items: stretch;
- 
-  width: 100%;
-  margin: 2rem 2rem 2rem 0rem;
+  width: calc(100% - 2rem);
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.projects-grid > .project-card {
+  width: auto;
+  margin: 0;
 }
 
 @media (max-width: 768px) {
   .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.5rem;
   }
 }
 
 @media (max-width: 480px) {
   .projects-grid {
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
 }

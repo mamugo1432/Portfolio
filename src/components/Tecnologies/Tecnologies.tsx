@@ -1,7 +1,7 @@
 import './Tecnologies.css';
 export default function Tecnologies(){
 
-    const tecnologies = ["React", "Angular", "TypeScript", "Bootstrap", "Java", "Springboot", "MYSQL", "Oracle DB", "JUnit", "Selenium", "Vitest","OpenCode"];
+    const tecnologies = ["Linux", "PHP", "React", "Angular", "TypeScript", "Bootstrap", "Java", "Springboot", "MYSQL", "Oracle DB", "JUnit", "Selenium", "Vitest","OpenCode"];
     return(
         <>
         <div className="container-section">
